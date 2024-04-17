@@ -1,11 +1,7 @@
 # Third-year-dissertation-project
 The project aims to introduce a novel solution for neural source separation by analysing the overall behaviour of firing neurons. The main features of the cortical surface were incorporated into a COMSOL model which provided an environment for signal generation and data gathering. Signal recognition was successfully achieved with a minimum distance between sources of 50µm and the probes being placed up to 2mm above the scalp. This confirmed that the oscillations of 2 and 3 sources can be distinguished with an accuracy of 99.7% and 90%, respectively.
 
-### Archive files description
-* COMSOL:
-  * Volume Conduction Model.mph → Main design framework which uses FHN for action potential generation;
-  * Wave Model.mph → Creates the oscillations using a mixture of 2 waves for action potential generation.
-    
+### Archive files description 
 * Python:
   * Combine data.py → Formats all data coming from a single simulation into one ’.csv’ file;
   * Data format.py → Formats data from ’.txt’ to ’.csv’;
